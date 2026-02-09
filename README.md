@@ -1,73 +1,106 @@
-# Welcome to your Lovable project
+# 🧠 AI-Driven Personal Wellness & Community Health Analytics Platform
 
-## Project info
+An end-to-end **AI-powered health prediction and analytics web platform** that helps users understand potential health risks, track lifestyle factors, and make data-driven wellness decisions through an interactive, modern interface.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🚀 Problem Statement
 
-There are several ways of editing your application.
+Preventable diseases and lifestyle-related health risks often go unnoticed until they become severe.  
+Most users lack:
+- Early risk awareness
+- Easy-to-understand health analytics
+- Personalized insights based on daily habits
 
-**Use Lovable**
+This platform addresses these gaps by combining **machine learning**, **data analytics**, and **intuitive UI/UX** to enable **early risk detection and proactive health management**.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 💡 Solution Overview
 
-**Use your preferred IDE**
+The system allows users to:
+- Input lifestyle, symptom, and health data
+- Receive AI-driven risk classification (Low / Medium / High)
+- Visualize health insights through dashboards
+- Track wellness goals and community trends
+- Interact with a smart health assistant
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ✨ Key Features
 
-Follow these steps:
+- 🔍 **AI-Based Health Risk Prediction**
+- 📊 **Interactive Analytics Dashboard**
+- 🎯 **Lifestyle & Goal Tracking**
+- 🧬 **Symptom Analysis Module**
+- 🤖 **AI Health Chatbot**
+- 🎨 **Animated Modern UI (Framer Motion)**
+- 🔐 **Authentication & Protected Routes**
+- 🌐 **Responsive & Accessible Design**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🛠️ Tech Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Frontend
+- **React + TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **Framer Motion**
+- **React Router**
+- **Lucide Icons**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### Backend
+- **Python**
+- **Flask**
+- **REST APIs**
+- **Machine Learning Models**
 
-**Edit a file directly in GitHub**
+### Tools & Platforms
+- **GitHub** – Version Control
+- **Vercel** – Frontend Deployment
+- **Render / Railway** – Backend Deployment (Optional)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🧠 Machine Learning Overview
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Supervised learning models for risk classification
+- Input features include lifestyle, symptoms, and basic health indicators
+- Output categorized into:
+  - Low Risk
+  - Medium Risk
+  - High Risk
 
-## What technologies are used for this project?
+*(Model can be extended with real-time medical datasets in future versions.)*
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📂 Project Structure
 
-## How can I deploy this project?
+Health Prediction Modal/
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ ├── hooks/
+│ │ ├── services/
+│ │ └── App.tsx
+│ └── package.json
+│
+├── backend/
+│ ├── app.py
+│ ├── model/
+│ └── requirements.txt
+│
+├── README.md
+└── .gitignore
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## ⚙️ Installation & Setup
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/USERNAME/REPO_NAME.git
+cd REPO_NAME
