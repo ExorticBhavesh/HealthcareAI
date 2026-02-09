@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" class="light" style="color-scheme: light;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <title>Healthcare AI - Your AI-Powered Health Companion</title>
+    <meta name="description" content="Track your lifestyle, get AI health insights, and discover community wellness trends with Healthcare AI." />
+    <meta name="author" content="Healthcare AI" />
+
+    <meta property="og:title" content="WellnessAI - AI-Powered Health Companion" />
+    <meta property="og:description" content="Track your lifestyle, get AI health insights, and discover community wellness trends." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@WellnessAI" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    
+    
+    <script>
+      // Prevent flash of wrong theme
+      (function() {
+        const theme = localStorage.getItem('theme') || 'light';
+        document.documentElement.classList.toggle('dark', theme === 'dark');
+        document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';
+      })();
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
